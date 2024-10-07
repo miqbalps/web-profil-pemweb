@@ -271,6 +271,8 @@ main {
 
 .contact .email {
   transition: all 0.3s 0s;
+  font-size: 2vw;
+  font-weight: 600;
 }
 
 .contact .email:hover {
@@ -323,5 +325,14 @@ footer span:hover {
 @media (max-width: 1214px) {
   .card {
     width: 100%;
+  }
+  .email {
+    font-size: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact .email {
+    font-size: 4vw;
   }
 }
